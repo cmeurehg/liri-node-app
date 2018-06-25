@@ -10,3 +10,32 @@ r (urlHit, function (error, response, body){
     console.log (arrange.Year);
     console.log (arrange.Plot);
 });
+
+var spotify = new Spotify (keys.spotify);
+var client = new Twitter (keys.twitter);
+
+var command = process.argv[2];
+
+    switch (command) {
+    
+        case "my-tweets":
+            
+
+
+        break;
+
+        case "spotify-this-song":
+        //add code
+        break;
+
+        case "movie-this":
+        //add code
+        break;
+
+        case "do-what-it-says":
+        //add code
+    
+    };
+
+
+
