@@ -14,14 +14,19 @@ r (urlHit, function (error, response, body){
 var spotify = new Spotify (keys.spotify);
 var client = new Twitter (keys.twitter);
 
+
+r (client, function (error, response, body) {
+    var twitPresent = 
+})
+
+
 var command = process.argv[2];
 
     switch (command) {
     
         case "my-tweets":
-            
-
-
+        console.log(JSON.stringify(response.text, null, 2));
+        console.log(JSON.stringify(response.created_at, null, 2));
         break;
 
         case "spotify-this-song":
