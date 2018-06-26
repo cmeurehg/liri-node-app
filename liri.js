@@ -43,11 +43,7 @@ var command = process.argv[2];
                     console.log (song[i].album.name);
                 }
             })
-            
-
-
-
-        break;
+                 break;
 
         case "movie-this":
             var urlHit = "http://www.omdbapi.com/?t="+ process.argv[3] +"&y=&plot=full&tomatoes=true&apikey=trilogy";
@@ -65,7 +61,7 @@ var command = process.argv[2];
         case "do-what-it-says":
         //random.txt file and run command 
         //create functions for those commands, which is one of these
-    
+        //case "movie-this": movieThis(); break;
     };
 
 
