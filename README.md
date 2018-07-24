@@ -1,6 +1,6 @@
 # liri-node-app
 
-The application allows the user to obtain tweets from Tweeter, information about songs from Spotify and information about
+The application allows the user to obtain tweets from Twitter, information about songs from Spotify and information about
 movies from Omdb.  The application can also be accessed through the link in my portfolio:
 
 https://cmeurehg.github.io/Responsive-Portfolio
